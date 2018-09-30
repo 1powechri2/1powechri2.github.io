@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #404041;
+  height: 80px;
+}
+
+#numb {
+  margin-top: 5px;
+  margin-right: 4px;
+	margin-top: 10px;
+  font-size: 55px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #ED458B;
+}
+
+#gues {
+  margin-top: 5px;
+  margin-left: 4px;
+	margin-top: 10px;
+  font-size: 55px;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: #E6E7E8;
+}
+
+#min_max_fields {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#min_number {
+  margin-right: 10px;
+	text-align: center;
+	font-size: 25px;
+  height: 40px;
+  width: 190px;
+  border: 2px solid #D0D2D3;
+}
+
+#min_number::placeholder {
+	color: #D0D2D3;
+  font-size: 25px;
+	font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+#max_number {
+  margin-left: 10px;
+	text-align: center;
+	font-size: 25px;
+  height: 40px;
+  width: 190px;
+  border: 2px solid #D0D2D3;
+}
+
+#max_number::placeholder {
+	color: #D0D2D3;
+  font-size: 25px;
+	font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+
+#set_range_button {
+  display: flex;
+  justify-content: center;
+}
+
+#range_button {
+  font-size: 30px;
+  margin: 4px 10px;
+	width: 410px;
+  border: none;
+  border-radius: 40px;
+  padding: 4px 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+#number_field_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#number_field {
+  width: 405px;
+  height: 40px;
+  border: 2px solid #D0D2D3;
+	text-align: center;
+	font-size: 25px;
+}
+
+#number_field::placeholder {
+	color: #D0D2D3;
+  font-size: 25px;
+	font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+
+#number_field_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#guess_button {
+  font-size: 30px;
+  margin: 4px 10px;
+  border: none;
+  border-radius: 40px;
+  padding: 4px 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+#clear_button {
+  font-size: 30px;
+  margin: 4px 10px;
+  border: none;
+  border-radius: 40px;
+  padding: 4px 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+.answer_field {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#answer-1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #404041;
+}
+
+#answer-num {
+  display: flex;
+  justify-content: center;
+  font-size: 150px;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #EB008B;
+}
+
+#answer-2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #404041;
+}
+
+#answer-3 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #404041;
+}
+
+#answer-4 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #404041;
+}
+
+#reset_game {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  color: #404041;
+}
+
+#reset_button {
+  font-size: 30px;
+  margin: 4px 10px;
+	width: 410px;
+  border: none;
+  border-radius: 40px;
+  padding: 4px 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+  background-color: #929497;
+  color: #FFFFFF;
+}

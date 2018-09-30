@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  </head>
+  <div class='container'>
+    <header id='header'>
+      <p id='numb'>Number</p><p id='gues'>Guesser</p>
+    </header>
+    <body>
+      <div id='min_max'>
+        <div id='min_max_fields'>
+          <span id='min'><input type='text' id='min_number' placeholder='Minimum Value'></span>
+          <span id='max'><input type='text' id='max_number' placeholder='Maximum Value'></span>
+        </div>
+        <div id='set_range_button'>
+          <button id='range_button'>Set Range</button>
+        </div>
+      </div>
+      <div id='number_field_div'>
+        <div id='number'><input type='text' id='number_field' placeholder='Enter Your Guess'></div>
+      </div>
+      <div id='number_field_buttons'>
+        <span id='guess_number'><button id='guess_button'>Guess</button></span>
+        <span id='clear_number'><button id='clear_button'>Clear</button></span>
+      </div>
+      <div class='answer_field'>
+        <p id='answer-1'>Welcome To Number Guesser<p><br>
+        <p id='answer-num'>0<br>
+        <p id='answer-2'>Please Input A Minimum and<br>
+        <p id='answer-3'>Maximum Value In Order To <br>
+        <p id='answer-4'>Generate a Random Value<br>
+      </div>
+      <div id='reset_game'><button id='reset_button'>Reset</button></div>
+      <script src="script.js"></script>
+    </body>
+  </div>
+</html>
